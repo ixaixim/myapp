@@ -1,10 +1,31 @@
-<html>
+<!-- This is a comment-->
+<!-- 127.0.0.1 is our machine, :5500 is the port -->
+
+<!DOCTYPE html> 
+<!-- define structure -->
+<html lang="en"> 
     <head>
-        <title>My app</title>
-        <body>
-            This is my app!
-            Something else.
-            Lets try again, this time simple.
-        </body>
+    <title> My first web page</title>
+    <!--
+        css: styles for different elements: 
+        image (img), paragraph (p) etc.
+    -->
+    <style>
+        img { 
+            width:100px;
+            border-radius: 50px;
+            float: left;
+            margin-right:10px;
+        }
+        p.username {
+            font-weight: bold;
+        }
+    </style>
     </head>
+    <body>
+        <!-- add image-->
+        <img src="images/flower.jpg" alt= "err: Image not displayed"> 
+        <p class="username">@neelmiscia</p>
+        <p> I love to learn html</p>
+    </body>
 </html>
